@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 namespace Tesseract.WinFormDemo
 {
-    public partial class frmMain : Form
+    public partial class MainForm : Form
     {
         private TesseractEngine tesseractEngine = null; // new TesseractEngine(@"./tessdata", "chi_sim+eng", EngineMode.Default);
         private float originalScaleX = 0;
@@ -17,7 +17,7 @@ namespace Tesseract.WinFormDemo
         private Color btnShowCurBitmapBackColor;
         private Color btnShowCurBitmapForeColor;
 
-        public frmMain()
+        public MainForm()
         {
             InitializeComponent();
         }
@@ -295,7 +295,7 @@ namespace Tesseract.WinFormDemo
             }
         }
 
-        private void frmMain_FormClosing(object sender, FormClosingEventArgs e)
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             //tesseractEngine.Dispose();
         }
@@ -362,7 +362,7 @@ namespace Tesseract.WinFormDemo
             showCurBitmap = !showCurBitmap;
         }
 
-        private void frmMain_Load(object sender, EventArgs e)
+        private void MainForm_Load(object sender, EventArgs e)
         {
             btnShowCurBitmapBackColor = btnShowCurBmp.BackColor;
             btnShowCurBitmapForeColor = btnShowCurBmp.ForeColor;

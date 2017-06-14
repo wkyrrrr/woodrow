@@ -1,6 +1,6 @@
 ﻿namespace Tesseract.WinFormDemo
 {
-    partial class frmMain
+    partial class MainForm
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -332,8 +332,8 @@
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "智能识别Demo";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMain_FormClosing);
-            this.Load += new System.EventHandler(this.frmMain_Load);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picbOriginal)).EndInit();
             this.panel2.ResumeLayout(false);

@@ -57,12 +57,32 @@
     <Compile Include="FormTest.Designer.cs">
       <DependentUpon>FormTest.cs</DependentUpon>
     </Compile>
+    <Compile Include="OCR\RecognitionTemplateUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OCR\RecognitionTemplateUC.Designer.cs">
+      <DependentUpon>RecognitionTemplateUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecognitionMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecognitionMain.Designer.cs">
+      <DependentUpon>RecognitionMain.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="OCR\BasePane.cs" />
+    <Compile Include="OCR\ChangPane.cs" />
+    <Compile Include="OCR\ContentPane.cs" />
+    <Compile Include="OCR\ImageProcess.cs" />
+    <Compile Include="OCR\IPane.cs" />
+    <Compile Include="OCR\PaneType.cs" />
+    <Compile Include="OCR\RecognitionTemplate.cs" />
+    <Compile Include="OCR\TitlePane.cs" />
     <Compile Include="PaintForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +93,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormTest.resx">
       <DependentUpon>FormTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OCR\RecognitionTemplateUC.resx">
+      <DependentUpon>RecognitionTemplateUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecognitionMain.resx">
+      <DependentUpon>RecognitionMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>

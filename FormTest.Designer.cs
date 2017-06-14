@@ -38,7 +38,7 @@
             this.picbMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.picbMain.Location = new System.Drawing.Point(0, 0);
             this.picbMain.Name = "picbMain";
-            this.picbMain.Size = new System.Drawing.Size(818, 494);
+            this.picbMain.Size = new System.Drawing.Size(855, 548);
             this.picbMain.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picbMain.TabIndex = 0;
             this.picbMain.TabStop = false;
@@ -51,7 +51,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(818, 494);
+            this.ClientSize = new System.Drawing.Size(855, 548);
             this.Controls.Add(this.picbMain);
             this.Name = "FormTest";
             this.Text = "FormTest";

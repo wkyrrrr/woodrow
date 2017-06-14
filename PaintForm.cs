@@ -13,18 +13,13 @@ namespace Tesseract.WinFormDemo
     {
         //是否开始画了 
         bool bDrawStart = false;
-
         //矩形的起始点 
         Point pointStart = Point.Empty;
-
         //矩形的起始点的对角点，鼠标移动点 
         Point pointContinue = Point.Empty;
-
         //是否要修改矩形，以鼠标点击点在矩形内部为准，修改时自动在4个端点创建4个小方框，不能创建其他的矩形 
         bool bChange = false;
-
-
-
+        
         //修改矩形时移动点的X、Y记录，好根据它在dicPoints找到对应的矩形，或dicPointsChange找到对应小方框 
         Point pMove1 = Point.Empty; 
         Point pMove2 = Point.Empty;
@@ -45,7 +40,7 @@ namespace Tesseract.WinFormDemo
 
         private void PaintForm_Load(object sender, EventArgs e)
         {
-            picbMain.Image = Bitmap.FromFile(@"E:\AbnerLib\TesseractLib\Tess4NET\Original.jpg");
+            picbMain.Image = Bitmap.FromFile(@"F:\AbnerLib\Git\repository\woodrow\woodrow\Original.jpg");
         }
 
         private void picbMain_Paint(object sender, PaintEventArgs e)
